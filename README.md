@@ -19,8 +19,7 @@ OpenClaw gives your agent incredible power — including the ability to read and
 
 Your agent stays productive. You stay in control.
 
-![Email Drafts](assets/drafts-list.png)
-*Review and approve email drafts created by your LLM agents*
+[See the UI →](https://textforge.net/docs/ui)
 
 ### Safety by Design
 
@@ -70,9 +69,6 @@ Once configured, your OpenClaw agent can:
 - **Sync inbox state** — keep everything current
 
 Your agent gets the power. You keep the control.
-
-![Compose Modal](assets/inbox-reply-compose-modal.png)
-*Review thread context and edit drafts before approving*
 
 ---
 
