@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40">
+  <!-- TextForge Wordmark -->
+  <!-- Clean, modern sans-serif treatment -->
+
+  <style>
+    .wordmark { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; font-size: 28px; }
+    .text-part { fill: #1e40af; }
+    .forge-part { fill: #f97316; }
+  </style>
+
+  <!-- "Text" in primary blue -->
+  <text x="10" y="30" class="wordmark text-part">Text</text>
+
+  <!-- "Forge" in accent orange -->
+  <text x="78" y="30" class="wordmark forge-part">Forge</text>
+</svg>
