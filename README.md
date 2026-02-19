@@ -1,6 +1,6 @@
 # OpenClaw TextForge Skill
 
-<img src="assets/textforge-logo.svg" width="200" alt="TextForge Logo">
+<img src="assets/textforge-logo.png" width="300" alt="TextForge Logo">
 
 Official OpenClaw skill for [TextForge](https://textforge.net) — safely automate your Gmail with AI.
 
