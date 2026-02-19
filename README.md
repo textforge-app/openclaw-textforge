@@ -19,6 +19,9 @@ OpenClaw gives your agent incredible power — including the ability to read and
 
 Your agent stays productive. You stay in control.
 
+![Email Drafts](assets/drafts-list.png)
+*Review and approve email drafts created by your LLM agents*
+
 ### Safety by Design
 
 - **Human-in-the-loop**: Every email requires your approval before sending — catches hallucinations, prompt injection, or just off-tone drafts
@@ -67,6 +70,9 @@ Once configured, your OpenClaw agent can:
 - **Sync inbox state** — keep everything current
 
 Your agent gets the power. You keep the control.
+
+![Compose Modal](assets/inbox-reply-compose-modal.png)
+*Review thread context and edit drafts before approving*
 
 ---
 
