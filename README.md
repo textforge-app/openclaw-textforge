@@ -4,39 +4,27 @@ Official OpenClaw skill for [TextForge](https://textforge.net) — safely automa
 
 ---
 
-## The Risk is Real
+## Use OpenClaw with Confidence
 
-OpenClaw went from zero to 180,000 GitHub stars in weeks. Security researchers found thousands of misconfigured instances leaking API keys, OAuth tokens, and credentials. When your OpenClaw agent has direct email access, it faces the "lethal trifecta":
+OpenClaw gives your agent incredible power — including the ability to read and send emails. But with that power comes risk: a prompt injection, a hallucination, or a misunderstood instruction could send an email you never intended.
 
-- **Access to private data** — your emails
-- **Exposure to untrusted content** — incoming messages with hidden instructions
-- **Ability to communicate externally** — send emails that can't be unsent
+**TextForge makes OpenClaw safer to use** by adding a human approval layer to every email. Your agent gets full email capability — reading threads, drafting replies, attaching files — but **nothing sends without your review**.
 
-Email is the most dangerous capability an AI agent can have.
+### How It Works
 
----
+1. **Agent drafts** — Your OpenClaw agent reads the thread and composes a response via MCP
+2. **You review** — Get notified via Slack, Discord, or webhook with the full draft preview
+3. **You decide** — Edit, approve, or reject. When you approve, it sends from your Gmail with your signature
+4. **Loop continues** — When they reply, your agent gets notified to draft the next response
 
-## TextForge Breaks the Chain
+Your agent stays productive. You stay in control.
 
-TextForge sits between your OpenClaw agent and your Gmail. Your agent gets full email capability — reading threads, drafting replies, attaching files — but **nothing sends without your approval**.
+### Safety by Design
 
-Every draft queues for your review. You see it, you edit it, you approve it — or you don't.
-
-### Safety Features
-
-- **Human-in-the-loop**: Every email requires approval before sending
-- **Scoped API tokens**: Your agent connects through TextForge's API, never touches your Gmail credentials directly
-- **Full audit trail**: Every draft, edit, approval, and rejection is logged
-- **Pass-through architecture**: Email content is never stored on TextForge servers
-
-### The Workflow
-
-1. **Agent reads context** — searches threads, gets full email history
-2. **Agent drafts response** — composes a reply with proper context
-3. **You get notified** — Slack, Discord, or webhook with draft preview
-4. **You review and approve** — catch hallucinations, prompt injection, or just fix tone
-5. **Email sends** — from your Gmail, with your signature
-6. **Reply triggers agent** — when they respond, your agent gets notified to draft the next message
+- **Human-in-the-loop**: Every email requires your approval before sending — catches hallucinations, prompt injection, or just off-tone drafts
+- **Scoped API tokens**: Your agent connects through TextForge's API, never touches your Gmail credentials directly. Compromised token? Revoke it without changing your Google password.
+- **Full audit trail**: Every draft, edit, approval, and rejection is logged — know exactly what your agent tried to send
+- **Pass-through architecture**: Email content is fetched from Gmail on-demand and never stored on TextForge servers
 
 ---
 
@@ -124,4 +112,4 @@ See [SKILL.md](./SKILL.md) for complete tool documentation, formatting guideline
 
 ---
 
-*Take back your inbox. Set up in 5 minutes.*
+*Set up in 5 minutes. Use OpenClaw with confidence.*
