@@ -49,7 +49,7 @@ npm install -g mcporter
 
 ### 2. Get Your API Token
 1. Sign up at [textforge.net](https://textforge.net/login)
-2. Generate token at [textforge.net/settings/tokens](https://textforge.net/settings/tokens)
+2. Generate token at [textforge.net/tokens](https://textforge.net/tokens)
 3. Set environment variable:
    ```bash
    export TEXTFORGE_TOKEN="your-token-here"
