@@ -64,8 +64,10 @@ mcporter call textforge.list_threads limit:5
 Once configured, your OpenClaw agent can:
 
 - **Draft emails** — with full thread context, ready for your approval
+- **Schedule emails** — set drafts to send at a specific time (after your approval)
 - **Search your inbox** — find relevant conversations instantly
 - **Read threads** — understand the full conversation history
+- **Listen for replies** — webhooks notify your agent when recipients respond
 - **Manage follow-ups** — never drop the ball on important conversations
 - **Sync inbox state** — keep everything current
 
