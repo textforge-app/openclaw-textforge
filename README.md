@@ -2,7 +2,7 @@
 
 <img src="assets/textforge-logo.png" width="300" alt="TextForge Logo">
 
-Official OpenClaw skill for [TextForge](https://textforge.net) — safely automate your Gmail with AI.
+Official OpenClaw skill for [TextForge](https://textforge.net) — personal email automation with AI drafting and human approval.
 
 ---
 
@@ -168,7 +168,7 @@ Full 22-tool reference with parameter documentation, attachment workflow, draft 
 
 ## Pricing
 
-Try it free for 7 days. No credit card required.
+Try it free for 7 days. Card on file, no charge until the trial ends.
 
 | Plan | Price | What's Included |
 |------|-------|-----------------|
